@@ -50,6 +50,7 @@ class RegistrationController with ChangeNotifier {
 
     mRegistration.fold((l) {
       /// Error Message appear here
+      // debugPrint('ERROR IN REG: ${l.errorDisplayingMessage}');
     }, (r) {
       ///
       RegistrationResponseModel registrationResponseModel =
